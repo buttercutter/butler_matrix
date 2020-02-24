@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph_file version="12">
+    <Window ClassName="SGraphWin" DocID="42001952" ShellIndex="0" TabIndex="5" ActiveView="true">
+        <geometry>01d9d0cb0002000000000000000000000000077d000003c800000000000000000000077d000003c800000000000000000780</geometry>
+        <state>000000ff00000000fd00000001000000000000011900000350fc0200000003fb0000000c004c006500670065006e006401000000590000012b0000006400fffffffb00000018005400650072006d0069006e006100740069006f006e0073010000018a000000f10000006400fffffffb0000000e00530065007300730069006f006e0100000281000001280000006400ffffff0000065f0000035000000004000000040000000800000008fc0000000100000002000000040000001600460069006c00650054006f006f006c0042006100720100000000ffffffff00000000000000000000001600560069006500770054006f006f006c00420061007201000000e1ffffffff000000000000000000000018004700720061007000680054006f006f006c00420061007201000001f9ffffffff00000000000000000000001a004c00610075006e006300680054006f006f006c00420061007201000002bb000002ac0000000000000000</state>
+        <Guts>
+            <graph_info version="12" tab_label="butler_matrix">
+                <source_files>
+                    <file id="0">butler_matrix.son</file>
+                </source_files>
+                <plot type="cartesian" plotover="0" graph_title="butler_matrix">
+                    <graph_properties show_grid="1" grid_weight="1" axis_weight="1"/>
+                    <graph_units>
+                        <length unit="mm"/>
+                        <resistance unit="Ohms"/>
+                        <inductance unit="nH"/>
+                        <capacitance unit="pF"/>
+                        <frequency unit="GHz"/>
+                        <conductivity unit="S/m"/>
+                        <resistivity unit="Ohm-cm"/>
+                        <sheet_resistance unit="Ohms/sq"/>
+                    </graph_units>
+                    <axes log_scale="0">
+                        <x_axis min="1" max="6" autoscale="1" enabled="1" interval="1" tick_labels="1" log="0">
+                            <title>Frequency (GHz)</title>
+                        </x_axis>
+                        <y_axis_left min="-200" max="200" autoscale="1" enabled="1" interval="50" tick_labels="1" log="0">
+                            <title>Phase (Deg)</title>
+                        </y_axis_left>
+                        <y_axis_right min="-200" max="200" autoscale="1" enabled="1" interval="50" tick_labels="1" log="0">
+                            <title>Phase (Deg)</title>
+                        </y_axis_right>
+                    </axes>
+                    <curves>
+                        <curve id="8" measurement_name="S-Parameters" measurement_id="0">
+                            <Axis name="Axis" value="0"/>
+                            <Format name="Format" value="3"/>
+                            <Data_Source name="Data Source">
+                                <File name="File" value="0"/>
+                                <De-embedded name="De-embedded" value="0"/>
+                            </Data_Source>
+                            <Ports name="Ports">
+                                <To_Port name="To Port" value="1"/>
+                                <From_Port name="From Port" value="5"/>
+                            </Ports>
+                            <Style name="Style">
+                                <Color name="Color" value="#ff0000"/>
+                                <Symbol name="Symbol" value="0"/>
+                                <Line_Style name="Line Style" value="1"/>
+                            </Style>
+                        </curve>
+                        <curve id="12" measurement_name="S-Parameters" measurement_id="0">
+                            <Axis name="Axis" value="0"/>
+                            <Format name="Format" value="3"/>
+                            <Data_Source name="Data Source">
+                                <File name="File" value="0"/>
+                                <De-embedded name="De-embedded" value="0"/>
+                            </Data_Source>
+                            <Ports name="Ports">
+                                <To_Port name="To Port" value="1"/>
+                                <From_Port name="From Port" value="6"/>
+                            </Ports>
+                            <Style name="Style">
+                                <Color name="Color" value="#ff00ff"/>
+                                <Symbol name="Symbol" value="0"/>
+                                <Line_Style name="Line Style" value="1"/>
+                            </Style>
+                        </curve>
+                        <curve id="14" measurement_name="S-Parameters" measurement_id="0">
+                            <Axis name="Axis" value="1"/>
+                            <Format name="Format" value="3"/>
+                            <Data_Source name="Data Source">
+                                <File name="File" value="0"/>
+                                <De-embedded name="De-embedded" value="0"/>
+                            </Data_Source>
+                            <Ports name="Ports">
+                                <To_Port name="To Port" value="1"/>
+                                <From_Port name="From Port" value="7"/>
+                            </Ports>
+                            <Style name="Style">
+                                <Color name="Color" value="#00ffff"/>
+                                <Symbol name="Symbol" value="0"/>
+                                <Line_Style name="Line Style" value="1"/>
+                            </Style>
+                        </curve>
+                        <curve id="17" measurement_name="S-Parameters" measurement_id="0">
+                            <Axis name="Axis" value="1"/>
+                            <Format name="Format" value="2"/>
+                            <Data_Source name="Data Source">
+                                <File name="File" value="0"/>
+                                <De-embedded name="De-embedded" value="0"/>
+                            </Data_Source>
+                            <Ports name="Ports">
+                                <To_Port name="To Port" value="1"/>
+                                <From_Port name="From Port" value="8"/>
+                            </Ports>
+                            <Style name="Style">
+                                <Color name="Color" value="#ff0000"/>
+                                <Symbol name="Symbol" value="0"/>
+                                <Line_Style name="Line Style" value="1"/>
+                            </Style>
+                        </curve>
+                    </curves>
+                    <marker_properties>
+                        <data_marker_properties color="#000000" weight="10" symbol="2" display_annotation="1" show_in_legend="0"/>
+                        <curve_marker_properties color="#000000" show_parameters="0" hide_label="0"/>
+                        <note_marker_properties color="#000000"/>
+                        <delta_marker_properties color="#000000"/>
+                        <line_marker_properties color="#000000" weight="2" style="2" display_annotation="1"/>
+                        <general_properties text_size="10" label_precision="4"/>
+                    </marker_properties>
+                    <markers>
+                        <data_markers/>
+                        <curve_markers/>
+                        <note_markers/>
+                        <hline_markers/>
+                        <vline_markers/>
+                        <delta_markers/>
+                    </markers>
+                </plot>
+            </graph_info>
+        </Guts>
+    </Window>
+</graph_file>
